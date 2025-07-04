@@ -29,9 +29,13 @@ cpp-test-gen/
 - Compatible with Windows (MSYS2 or UCRT shell)
 
 ## Building & Running Tests
-### 1. Clone the repo
-git clone https://github.com/Ananya-te/cpp-test-gen.git
-cd cpp-test-gen
+### 1.Prerequisites
+- **MinGW-w64** with GCC ≥ 13+ (Recommended: 15.1.0)
+- **GoogleTest** source code (downloaded manually)
+- Windows terminal (preferably MSYS2/UCRT64 or PowerShell)
+**Steps**
+# 1. Open terminal and navigate to the project folder
+cd /c/Users/KIIT/Desktop/abc/cpp-test-gen
 
 ### 2. Compile the tests
 g++ -std=c++17 \
